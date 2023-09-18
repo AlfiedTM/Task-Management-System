@@ -4,7 +4,7 @@
   display: flex;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  min-height: 100vh;
+  min-height: 73.8vh;
   width: 100%;
 }
 .authentication-wrapper .authentication-inner {

@@ -40,9 +40,6 @@ $(function() {
   }
 });
 
-$('body').append('' +
-    '<div class="fixed-button active">' + '<a href="https://codedthemes.com/item/empire-bootstrap-admin-template/" target="_blank" class="btn btn-md btn-primary">' + '<i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy now' +
-    '</a> ' + '</div>' + '');
 var $window = $(window);
 var nav = $('.fixed-button');
 $window.scroll(function() {

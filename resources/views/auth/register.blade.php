@@ -2,13 +2,13 @@
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
+    <div class="row justify-content-center authentication-wrapper authentication-1 px-4">
+        <div class="col-md-6">
             <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
+                <h4 class="card-header text-center">{{ __('Create New Account') }}</h4>
 
                 <div class="card-body">
-                    <form method="POST" action="{{ route('register') }}">
+                    <form method="POST" class="my-5" action="{{ route('register') }}">
                         @csrf
 
                         <div class="row mb-3">
@@ -74,4 +74,7 @@
         </div>
     </div>
 </div>
+@foreach ($errors->all() as $error)
+    {{ $error }}
+@endforeach
 @endsection
