@@ -1,4 +1,4 @@
-<h1>Task Management System</h1>
+<h1 align="center">Task Management System</h1>
 <hr>
 <br><br>
 <p>On my journey to learn Laravel, I opted to create a task management system. This helped in shaping and cementing concepts of the Laravel world. This project isn't done. I am still building it up.</p>
