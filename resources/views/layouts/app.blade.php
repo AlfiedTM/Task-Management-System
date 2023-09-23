@@ -117,7 +117,7 @@
 
                                         <!-- Dashboards -->
                                         <li class="sidenav-item active">
-                                            <a href="index.html" class="sidenav-link">
+                                            <a href="{{route('home')}}" class="sidenav-link">
                                                 <i class="sidenav-icon feather icon-home"></i>
                                                 <div>Dashboard</div>
                                             </a>
@@ -135,17 +135,17 @@
                                             </a>
                                             <ul class="sidenav-menu">
                                                 <li class="sidenav-item ">
-                                                    <a href="bui_alert.html" class="sidenav-link">
+                                                    <a href="{{route('user.create')}}" class="sidenav-link">
                                                         <i class="feather icon-user-plus mx-1"></i> Create Account
                                                     </a>
                                                 </li>
                                                 <li class="sidenav-item">
-                                                    <a href="bui_badges.html" class="sidenav-link">
+                                                    <a href="{{route('user.delete')}}" class="sidenav-link">
                                                         <i class="lnr lnr-trash mx-1"></i> Delete Account
                                                     </a>
                                                 </li>
                                                 <li class="sidenav-item">
-                                                    <a href="bui_button.html" class="sidenav-link">
+                                                    <a href="{{route('user.edit')}}"  class="sidenav-link">
                                                         <i class="feather icon-edit mx-1"></i> Edit Account
                                                     </a>
                                                 </li>
@@ -366,7 +366,7 @@
                                                 <div class="demo-navbar-user nav-item dropdown">
                                                     <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
                                     <span class="d-inline-flex flex-lg-row-reverse align-items-center align-middle">
-                                        <img src="assets/img/avatars/1.png" alt class="d-block ui-w-30 rounded-circle">
+                                        <img src="{{asset('assets/img/avatars/1.png')}}" alt class="d-block ui-w-30 rounded-circle">
                                         <span class="px-1 mr-lg-2 ml-2 ml-lg-0">{{Auth::user()->name}}</span>
                                     </span>
                                                     </a>
@@ -408,7 +408,7 @@
         @yield('guest')
         {{--        </main>--}}
 </div> <!-- Core scripts -->
-<script src="{{asset('assets/js/pace.js')}}"></script>
+<script src="{{asset('../assets/js/pace.js')}}"></script>
 <script src="{{asset('assets/js/jquery-3.3.1.min.js')}}"></script>
 <script src="{{asset('assets/libs/popper/popper.js')}}"></script>
 <script src="{{asset('assets/js/bootstrap.js')}}"></script>
@@ -417,7 +417,7 @@
 <script src="{{asset('assets/js/material-ripple.js')}}"></script>
 
 <!-- Libs -->
-<script src="{{asset('assets/libs/perfect-scrollbar/perfect-scrollbar.js')}}"></script>
+<script src="{{asset('../assets/libs/perfect-scrollbar/perfect-scrollbar.js')}}"></script>
 <script src="{{asset('assets/libs/eve/eve.js')}}"></script>
 <script src="{{asset('assets/libs/flot/flot.js')}}"></script>
 <script src="{{asset('assets/libs/flot/curvedLines.js')}}"></script>
