@@ -1,3 +1,7 @@
+<h1 align="center">Task Management System</h1>
+<hr>
+<br><br>
+<p>On my journey to learn Laravel, I opted to create a task management system. This helped in shaping and cementing concepts of the Laravel world. This project isn't done. I am still building it up.</p>
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
