@@ -165,18 +165,18 @@
                                             </a>
                                             <ul class="sidenav-menu">
                                                 <li class="sidenav-item">
-                                                    <a href="bui_badges.html" class="sidenav-link">
+                                                    <a href="{{route('task.create')}}" class="sidenav-link">
                                                         <i class="lnr lnr-hourglass mr-md-1"></i>
                                                         <div>Schedule a Task</div>
                                                     </a>
                                                 </li>
                                                 <li class="sidenav-item">
-                                                    <a href="bui_button.html" class="sidenav-link">
+                                                    <a href="{{route('task.edit')}}" class="sidenav-link">
                                                         <i class="feather icon-edit mx-1"></i> Edit Tasks
                                                     </a>
                                                 </li>
                                                 <li class="sidenav-item">
-                                                    <a href="charts_morrisjs.html" class="sidenav-link">
+                                                    <a href="{{route('task.delete')}}" class="sidenav-link">
                                                         <i class="lnr lnr-trash mx-1"></i> Delete Tasks
                                                     </a>
                                                 </li>
